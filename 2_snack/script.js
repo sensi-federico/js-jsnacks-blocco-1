@@ -16,5 +16,5 @@ if (wordOne.length > wordTwo.length) {
     corta.innerHTML = wordOne;
     lunga.innerHTML = wordTwo;
 } else if (wordOne.length == wordTwo.length) {
-    console.log('le parole sono uguali')
+    console.log('le parole sono uguali');
 }
