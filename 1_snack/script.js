@@ -8,13 +8,13 @@ const maggiore = document.getElementById('maggiore');
 
 if (numberOne < numberTwo) {
     console.log(numberTwo);
-
+    maggiore.innerHTML = numberTwo;
 } else if (numberOne > numberTwo) {
     console.log(numberOne);
-
+    maggiore.innerHTML = numberOne;
 } else {
     console.log('I numeri sono uguali');
-
+    maggiore.innerHTML = 'I numeri sono uguali';
 }
 
 
