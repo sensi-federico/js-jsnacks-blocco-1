@@ -6,7 +6,8 @@ let numbersArray = [];
 
 for (let i = 0; i < 10; i++) {
     const numbers = prompt('inserisci un numero');
-    
+    numbersArray.push(numbers); 
 }
+
 
 console.log(numbersArray);
