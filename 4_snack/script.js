@@ -24,13 +24,13 @@ const nameArray = [
  
 
 let i = 0;
-const name = prompt('inserisci il tuo nome');
+const userName = prompt('inserisci il tuo nome');
 
 while (i < nameArray.length) {
 
     const nameList = nameArray[i];
 
-    if (name === nameList){
+    if (userName === nameList){
         console.log('Puoi accedere');
     } else {
         console.log('non puoi accedere');
